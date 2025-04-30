@@ -13,22 +13,17 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/people">People</router-link>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <router-link class="nav-link" to="/planets">Planets</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/starships">Starships</router-link>
-          </li>
+          </li>-->
         </ul>
       </div>
     </div>
   </nav>
 </template>
-
-<script setup>
-// No se requiere lógica adicional en este componente
-</script>
-
 <style scoped>
 .navbar {
   transition: background-color 0.3s; /* Suaviza la transición del color de fondo */

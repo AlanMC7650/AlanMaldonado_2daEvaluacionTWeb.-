@@ -1,18 +1,14 @@
 <template>
   <div class="container text-center p-5">
     <div class="jumbotron bg-light rounded shadow-sm">
-      <h1 class="display-4 text-primary">Bienvenido al Portal de Star Wars</h1>
-      <p class="lead text-muted">Explora personajes, planetas y naves.</p>
+      <h1 class="display-4 text-primary">Bienvenido al portal de StarWars</h1>
+      <p class="lead text-muted">Descubre cada detalle de los personajes de StarWars</p>
       <hr class="my-4">
-      <p>¡Sumérgete en el universo de Star Wars y descubre todo lo que tiene para ofrecer!</p>
+      <p>Sumérgete en el universo de Star Wars y descubre todo lo que tiene para ofrecer</p>
       <a class="btn btn-primary btn-lg" href="/People" role="button">Comenzar a explorar</a>
     </div>
   </div>
 </template>
-
-<script setup>
-// No se requiere lógica adicional en este componente
-</script>
 
 <style scoped>
 .container {
